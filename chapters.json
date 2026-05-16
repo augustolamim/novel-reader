@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "number":  1,
         "file":  "1.txt",
@@ -193,5 +193,170 @@
         "number":  39,
         "file":  "39.txt",
         "title":  "Chapter 39"
+    },
+    {
+        "number":  40,
+        "file":  "40.txt",
+        "title":  "Chapter 40"
+    },
+    {
+        "number":  41,
+        "file":  "41.txt",
+        "title":  "Chapter 41"
+    },
+    {
+        "number":  42,
+        "file":  "42.txt",
+        "title":  "Chapter 42"
+    },
+    {
+        "number":  43,
+        "file":  "43.txt",
+        "title":  "Chapter 43"
+    },
+    {
+        "number":  44,
+        "file":  "44.txt",
+        "title":  "Chapter 44"
+    },
+    {
+        "number":  45,
+        "file":  "45.txt",
+        "title":  "Chapter 45"
+    },
+    {
+        "number":  46,
+        "file":  "46.txt",
+        "title":  "Chapter 46"
+    },
+    {
+        "number":  47,
+        "file":  "47.txt",
+        "title":  "Chapter 47"
+    },
+    {
+        "number":  48,
+        "file":  "48.txt",
+        "title":  "Chapter 48"
+    },
+    {
+        "number":  49,
+        "file":  "49.txt",
+        "title":  "Chapter 49"
+    },
+    {
+        "number":  50,
+        "file":  "50.txt",
+        "title":  "Chapter 50"
+    },
+    {
+        "number":  51,
+        "file":  "51.txt",
+        "title":  "Chapter 51"
+    },
+    {
+        "number":  52,
+        "file":  "52.txt",
+        "title":  "Chapter 52"
+    },
+    {
+        "number":  53,
+        "file":  "53.txt",
+        "title":  "Chapter 53"
+    },
+    {
+        "number":  54,
+        "file":  "54.txt",
+        "title":  "Chapter 54"
+    },
+    {
+        "number":  55,
+        "file":  "55.txt",
+        "title":  "Chapter 55"
+    },
+    {
+        "number":  56,
+        "file":  "56.txt",
+        "title":  "Chapter 56"
+    },
+    {
+        "number":  57,
+        "file":  "57.txt",
+        "title":  "Chapter 57"
+    },
+    {
+        "number":  58,
+        "file":  "58.txt",
+        "title":  "Chapter 58"
+    },
+    {
+        "number":  59,
+        "file":  "59.txt",
+        "title":  "Chapter 59"
+    },
+    {
+        "number":  60,
+        "file":  "60.txt",
+        "title":  "Chapter 60"
+    },
+    {
+        "number":  61,
+        "file":  "61.txt",
+        "title":  "Chapter 61"
+    },
+    {
+        "number":  62,
+        "file":  "62.txt",
+        "title":  "Chapter 62"
+    },
+    {
+        "number":  63,
+        "file":  "63.txt",
+        "title":  "Chapter 63"
+    },
+    {
+        "number":  64,
+        "file":  "64.txt",
+        "title":  "Chapter 64"
+    },
+    {
+        "number":  65,
+        "file":  "65.txt",
+        "title":  "Chapter 65"
+    },
+    {
+        "number":  66,
+        "file":  "66.txt",
+        "title":  "Chapter 66"
+    },
+    {
+        "number":  67,
+        "file":  "67.txt",
+        "title":  "Chapter 67"
+    },
+    {
+        "number":  68,
+        "file":  "68.txt",
+        "title":  "Chapter 68"
+    },
+    {
+        "number":  69,
+        "file":  "69.txt",
+        "title":  "Chapter 69"
+    },
+    {
+        "number":  70,
+        "file":  "70.txt",
+        "title":  "Chapter 70"
+    },
+    {
+        "number":  71,
+        "file":  "71.txt",
+        "title":  "Chapter 71"
+    },
+    {
+        "number":  72,
+        "file":  "72.txt",
+        "title":  "Chapter 72"
     }
 ]
