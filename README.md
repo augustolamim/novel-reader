@@ -4,9 +4,7 @@ A mobile-friendly static web reader for translated novel chapters, published via
 
 ## Live Website
 
-**[https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)**
-
-> Replace `YOUR-USERNAME` and `YOUR-REPO-NAME` with the actual GitHub username and repository name after the remote repository is created.
+**[https://augustolamim.github.io/novel-reader/](https://augustolamim.github.io/novel-reader/)**
 
 ## Project Structure
 
