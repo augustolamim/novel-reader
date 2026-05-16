@@ -1,0 +1,237 @@
+:root {
+  --page-bg: #f2ede4;
+  --page-bg-accent: #e7dccb;
+  --panel-bg: rgba(255, 252, 246, 0.92);
+  --panel-border: rgba(84, 66, 45, 0.14);
+  --text-main: #231c14;
+  --text-muted: #6a5740;
+  --accent: #8b5e34;
+  --accent-strong: #6b4522;
+  --accent-soft: rgba(139, 94, 52, 0.1);
+  --shadow-soft: 0 18px 40px rgba(46, 34, 20, 0.09);
+  --content-width: 72ch;
+  --radius-large: 24px;
+  --radius-medium: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.7), transparent 35%),
+    linear-gradient(180deg, var(--page-bg) 0%, var(--page-bg-accent) 100%);
+  color: var(--text-main);
+  font-family: "Spectral", "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
+    Georgia, serif;
+}
+
+a {
+  color: inherit;
+}
+
+.page-shell {
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.site-header {
+  padding: 12px 4px 28px;
+}
+
+.site-title {
+  display: inline-block;
+  color: var(--text-main);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-subtitle {
+  margin: 10px 0 0;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.app-shell {
+  display: grid;
+  gap: 18px;
+}
+
+.panel {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-soft);
+  padding: 20px;
+  backdrop-filter: blur(8px);
+}
+
+.chapter-list-header,
+.reader-header {
+  display: grid;
+  gap: 10px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.page-title,
+.chapter-title {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  line-height: 1.05;
+}
+
+.supporting-text,
+.status-message,
+.error-message {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.chapter-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.chapter-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-medium);
+  background: rgba(255, 255, 255, 0.54);
+  color: var(--text-main);
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.chapter-link:hover,
+.chapter-link:focus-visible,
+.nav-button:hover,
+.nav-button:focus-visible {
+  border-color: rgba(107, 69, 34, 0.36);
+  background: rgba(255, 255, 255, 0.82);
+  transform: translateY(-1px);
+}
+
+.chapter-link-label {
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.chapter-link-meta {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.reader-panel {
+  padding: 24px 20px;
+}
+
+.reader-meta {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+}
+
+.chapter-body {
+  width: min(100%, var(--content-width));
+  margin: 24px auto 0;
+  font-size: clamp(1.05rem, 2vw, 1.16rem);
+  line-height: 1.95;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+}
+
+.nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.nav-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 18px;
+  border: 1px solid rgba(107, 69, 34, 0.22);
+  border-radius: 999px;
+  background: #fffdf8;
+  color: var(--accent-strong);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.nav-button.primary {
+  background: var(--accent);
+  border-color: transparent;
+  color: #fdfaf4;
+}
+
+.nav-button.primary:hover,
+.nav-button.primary:focus-visible {
+  background: var(--accent-strong);
+}
+
+.empty-state,
+.error-state {
+  display: grid;
+  gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    padding: 16px 12px 28px;
+  }
+
+  .panel,
+  .reader-panel {
+    padding: 18px 16px;
+    border-radius: 20px;
+  }
+
+  .chapter-body {
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  .nav-row {
+    flex-direction: column;
+  }
+
+  .nav-button {
+    width: 100%;
+  }
+}

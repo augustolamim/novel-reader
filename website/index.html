@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novel Reader</title>
+    <meta
+      name="description"
+      content="A mobile-friendly reader for translated novel chapters."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="site-title" href="./index.html">Novel Reader</a>
+        <p class="site-subtitle">Translated chapters in a clean, readable layout.</p>
+      </header>
+
+      <main id="app" class="app-shell" aria-live="polite">
+        <section class="panel">
+          <p class="status-message">Loading chapters...</p>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
