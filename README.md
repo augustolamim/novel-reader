@@ -10,21 +10,13 @@ A mobile-friendly static web reader for translated novel chapters, published via
 
 ```text
 novel/
-  translated chapters/   # source translated .txt files
-  untranslated chapters/ # original untranslated .txt files
-  website/               # static reader site (deployed to GitHub Pages)
-    index.html
-    styles.css
-    app.js
-    chapters.json        # auto-generated chapter manifest
-    chapters/            # copied translated .txt files
-  website-instructions.md
+  index.html
+  styles.css
+  app.js
+  chapters.json
+  chapters/
 ```
 
 ## How to Update
 
-To add new translated chapters to the site, rerun the `website-instructions.md` workflow. It will:
-
-1. Copy new chapters from `translated chapters/` into `website/chapters/`.
-2. Update `website/chapters.json`.
-3. Commit and redeploy to GitHub Pages.
+Update the files at the repository root and push to `main` to redeploy the site.
